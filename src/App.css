@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.current-weather {
+  margin-bottom: 40px;
+}
+
+.weather-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forecast-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .forecast-item {
+    width: 80%;
+  }
+}

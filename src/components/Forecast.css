@@ -1,0 +1,10 @@
+.forecast-item{
+    background-color: rgb(145, 169, 216);
+    height:310px;
+    width:300px;
+    font-size: 25px;
+}
+h2{
+    color: brown;
+    /* font-size: 30px; */
+}
